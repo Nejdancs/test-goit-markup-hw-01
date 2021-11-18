@@ -35,8 +35,22 @@
         </nav>
 
         <ul class="list adrress-nav">
-          <li class="item"><a class="link" href="">info@devstudio.com</a></li>
-          <li class="item"><a class="link" href="">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a class="link" href="">
+              <svg class="icon-nav" width="16" height="16">
+                <use href="../images/sprites.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="link" href="">
+              <svg class="icon-nav" width="16" height="16">
+                <use href="../images/sprites.svg#icon-smartphone"></use>
+              </svg>
+              <div>+38 096 111 11 11</div>
+            </a>
+          </li>
         </ul>
       </div>
     </header>
@@ -55,6 +69,7 @@
             <li class="item"><button class="filter-btn" type="button">Маркетинг</button></li>
           </ul>
 
+          <!--Projects-->
           <ul class="list cardset-items">
             <li class="item-gallery">
               <div class="card">
@@ -163,12 +178,50 @@
     <!--Footer-->
     <footer class="section-footer">
       <div class="container">
-        <a class="logo" href="./index.html"><span class="accent-color">Web</span>Studio</a>
-        <address class="adrress">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="list contact-footer">
-          <li class="item"><a class="link" href="">info@example.com</a></li>
-          <li class="item"><a class="link" href="">+38 099 111 11 11</a></li>
-        </ul>
+        <div class="footer-inner">
+          <div class="adrress-box-footer">
+            <a class="logo" href="./index.html"><span class="accent-color">Web</span>Studio</a>
+            <address class="adrress">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="list contact-footer">
+              <li class="item"><a class="link" href="">info@example.com</a></li>
+              <li class="item"><a class="link" href="">+38 099 111 11 11</a></li>
+            </ul>
+          </div>
+
+          <div class="social-box-footer">
+            <h2 class="social-title-footer">присоединяйтесь</h2>
+            <ul class="list social-block">
+              <li class="social-item">
+                <a class="social-link" href="">
+                  <svg class="icon-social" width="20" height="20">
+                    <use href="../images/sprites.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href=""
+                  ><svg class="icon-social" width="20" height="20">
+                    <use href="../images/sprites.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href=""
+                  ><svg class="icon-social" width="20" height="20">
+                    <use href="../images/sprites.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href=""
+                  ><svg class="icon-social" width="20" height="20">
+                    <use href="../images/sprites.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
