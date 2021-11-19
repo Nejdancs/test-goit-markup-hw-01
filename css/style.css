@@ -115,6 +115,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: 0.1s;
 }
 
 .icon-nav {
@@ -133,6 +134,11 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: 0.1s;
+}
+
+.current {
+  cursor: pointer;
 }
 
 .site-nav .link:hover,
@@ -289,11 +295,12 @@ p {
 .social-link {
   display: block;
   padding: 12px;
+  border-radius: 50%;
   color: #afb1b8;
+  transition: 0.1s;
 }
 
 .social-link:hover {
-  border-radius: 50%;
   background-color: var(--accent-color);
   color: #ffffff;
 }
@@ -321,6 +328,7 @@ p {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
+  transition: 0.1s;
 }
 
 .clients-link:hover {
@@ -366,6 +374,7 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
+  transition: 0.1s;
 }
 
 .filter-btn:hover {
@@ -388,6 +397,9 @@ p {
   flex-basis: calc(100% / 3 - var(--cardset-gap));
   margin-left: var(--cardset-gap);
   margin-top: var(--cardset-gap);
+}
+.card {
+  transition: 0.1s;
 }
 
 .card:hover {
@@ -468,6 +480,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  transition: 0.1s;
 
   /* background-color: #2f303a; */
 }
@@ -502,11 +515,11 @@ p {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
+  transition: 0.1s;
 }
 
 .social-link:hover {
   background-color: var(--accent-color);
-  color: #ffffff;
 }
 
 .icon-social {
