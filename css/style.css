@@ -11,6 +11,7 @@
 }
 
 body {
+  min-width: 1200px;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
