@@ -28,7 +28,7 @@
         <nav class="main-nav">
           <a class="logo" href="./index.html"><span class="accent-color">Web</span>Studio</a>
           <ul class="list site-nav">
-            <li class="item link current">Студия</li>
+            <li class="item"><a class="link current" href="./index.html">Студия</a></li>
             <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
             <li class="item"><a class="link" href="">Контакты</a></li>
           </ul>
@@ -61,7 +61,7 @@
       <section class="hero-section">
         <div class="hero-inner">
           <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
-          <button class="button" type="button">Заказать услугу</button>
+          <button class="button" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -126,14 +126,17 @@
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="list our-work-list">
-            <li>
+            <li class="our-work-item">
               <img class="img" src="./images/box1.jpg" alt="" width="370" />
+              <p class="our-work-text">Десктопные приложения</p>
             </li>
-            <li>
+            <li class="our-work-item">
               <img class="img" src="./images/box2.jpg" alt="" width="370" />
+              <p class="our-work-text">Мобильные приложения</p>
             </li>
-            <li>
+            <li class="our-work-item">
               <img class="img" src="./images/box3.jpg" alt="" width="370" />
+              <p class="our-work-text">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -407,5 +410,13 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="icon-back" data-modal-close></button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
