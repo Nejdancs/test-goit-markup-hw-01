@@ -152,10 +152,11 @@ p {
 .current::after {
   content: '';
   position: absolute;
-  left: 0;
+  left: 50%;
   bottom: -1px;
-  width: 100%;
+  width: calc(100% - 0.62px);
   height: 4px;
+  transform: translateX(-50%);
   background-image: url(../images/hover.svg);
 }
 
